@@ -55,6 +55,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 Text(postList[index].body.toString()),
+                                Text(postList[index].title.toString()),
+                                Text(postList[index].id.toString()),
+
                               ],
                             ),
                           );
